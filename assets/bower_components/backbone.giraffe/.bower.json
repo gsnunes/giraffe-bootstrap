@@ -1,0 +1,41 @@
+{
+  "name": "backbone.giraffe",
+  "version": "0.2.6",
+  "homepage": "https://github.com/barc/backbone.giraffe",
+  "authors": [
+    "Ryan Atkinson <ryanatkn@gmail.com>"
+  ],
+  "description": "A lightweight library that extends Backbone.js to new heights.",
+  "main": "dist/backbone.giraffe.js",
+  "keywords": [
+    "backbone",
+    "giraffe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_gh-pages",
+    "src",
+    "dist/docs",
+    "dist/tests",
+    "AUTHORS",
+    "CHANGELOG.md",
+    "Projfile.coffee",
+    "Projtest.coffee",
+    "TODO.md",
+    "_README*.md",
+    "package.json"
+  ],
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.6",
+    "commit": "d2e667dd5fd73c5d77c33a3133adf52c277f0c0f"
+  },
+  "_source": "git://github.com/barc/backbone.giraffe.git",
+  "_target": "0.2.6",
+  "_originalSource": "backbone.giraffe",
+  "_direct": true
+}
