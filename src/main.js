@@ -1,10 +1,18 @@
-console.log('main.js');
-
-require(['App'], function (App) {
+window.GLOBAL = (function () {
 
 	'use strict';
 
-	var myApp = new App();
-	myApp.attachTo('#wrapper');
+	require(['App'], function (App) {
 
-});
+		var myApp = new App();
+		myApp.attachTo('#wrapper').start();
+
+	});
+
+	return {
+
+		config: {}
+
+	};
+
+}());

@@ -10,7 +10,8 @@ define(['views/Page1'], function (Page1) {
 
 
 		afterRender: function () {
-			this.attach(new Page1());
+			var page1 = new Page1();
+			page1.attachTo('#wrapper');
 		}
 
 	});
