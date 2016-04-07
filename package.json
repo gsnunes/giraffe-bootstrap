@@ -1,0 +1,24 @@
+{
+  "name": "giraffe-bootstrap",
+  "version": "1.0.0",
+  "description": "A backbone giraffe bootstrap",
+  "main": "main-built.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsnunes/giraffe-bootstrap.git"
+  },
+  "author": "Guilherme Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsnunes/giraffe-bootstrap/issues"
+  },
+  "homepage": "https://github.com/gsnunes/giraffe-bootstrap#readme",
+  "dependencies": {
+    "connect": "latest",
+    "serve-static": "latest"
+  }
+}

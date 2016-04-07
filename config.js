@@ -8,7 +8,8 @@ require.config({
 		'jquery': '../assets/bower_components/jquery/dist/jquery.min',
 		'lodash': '../assets/bower_components/lodash/lodash.min',
 		'backbone': '../assets/bower_components/backbone/backbone-min',
-		'text': '../assets/bower_components/requirejs-text/text'
+		'text': '../assets/bower_components/requirejs-text/text',
+		'jquery-ui': '../assets/bower_components/jquery-ui/ui'
 	},
 	shim: {
 		backbone: {

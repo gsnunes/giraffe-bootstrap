@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "jquery": "latest",
+    "jquery-ui": "latest",
     "backbone.giraffe": "0.2.6",
     "backbone": "1.1.0",
     "lodash": "~3.6.0",

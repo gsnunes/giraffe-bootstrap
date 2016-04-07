@@ -1,4 +1,4 @@
-define(['text!views/Page1.html', 'views/NewButtonWidget'], function (html, NewButtonWidget) {
+define(['text!views/Page1.html', 'views/NewButtonWidget', 'jquery-ui/datepicker'], function (html, NewButtonWidget, datepicker) {
 
 	'use strict';
 
@@ -15,6 +15,8 @@ define(['text!views/Page1.html', 'views/NewButtonWidget'], function (html, NewBu
 		},
 
 		afterRender: function () {
+			this.$( "#datepicker" ).datepicker();
+
 			var buttonWidget = new NewButtonWidget();
 			buttonWidget.attachTo(this.el);
 		}
